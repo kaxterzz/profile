@@ -321,3 +321,8 @@ body {
 .float-right {
     float: right;
 }
+
+.footer-coffee-a {
+    text-decoration: none !important;
+    color: white;
+}
