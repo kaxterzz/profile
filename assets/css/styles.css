@@ -1,0 +1,316 @@
+/* 
+@author: Thilanka Kasun Ketawala - M23W0378
+*/
+
+@font-face {
+    font-family: BelanosimaRegular;
+    src: url("../fonts/Belanosima-Regular.ttf");
+}
+
+@font-face {
+    font-family: Ysab;
+    src: url("../fonts/YsabeauInfant-VariableFont_wght.ttf");
+}
+
+body {
+    background-image: url("../images/bg.png");
+    background-size: cover;
+}
+
+.font-belan-r {
+    font-family: 'BelanosimaRegular';
+}
+
+.font-ysab {
+    font-family: 'Ysab';
+}
+
+.text-white {
+    color: white;
+}
+
+.text-l {
+    font-size: large;
+}
+
+.text-xxl {
+    font-size: 3rem;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.padding-horizontal {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.padding-left-16rem {
+    padding-left: 1.6rem;
+}
+
+.padding-left-10 {
+    padding-left: 10px;
+}
+
+.padding-right-10 {
+    padding-right: 10px;
+}
+
+.margin-vertical {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.margin-horizontal {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.margin-horizontal-15 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.margin-left-5 {
+    margin-left: 5px;
+}
+
+.margin-right-5 {
+    margin-right: 5px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-top-1rem {
+    margin-top: 1rem;
+}
+
+.margin-top-2rem {
+    margin-top: 2rem;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.nav-ul li {
+    list-style: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.nav-ul li a {
+    font-family: "BelanosimaRegular";
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+
+.glass-effect {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.width-webkit-fill-available {
+    width: -webkit-fill-available;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.image-responsive {
+    width: auto;
+    height: 100%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-4 {
+    width: 4%;
+}
+
+
+.w-5 {
+    width: 5%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.margin-top-0 {
+    margin-top: 0;
+}
+
+.personal-info-list {
+    padding-left: 15px;
+}
+
+.personal-info-list ul li {
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.personal-info-h2 {
+    margin-bottom: 0;
+}
+
+.eduction-info-h2 {
+    margin-bottom: 0;
+}
+
+.education-info-list-ul {
+    padding-left: 0;
+}
+
+.personal-info-list-ul {
+    padding-left: 0;
+}
+
+.eduction-info-list ul li {
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+.iframe-width {
+    width: -webkit-fill-available !important;
+}
+
+@media (max-width: 767.98px) {
+    .flex-md {
+        display: flex;
+    }
+
+    .flex-md-row {
+        flex-direction: row;
+    }
+
+    .flex-md-column {
+        flex-direction: column;
+    }
+
+    .justify-content-md-center {
+        justify-content: center;
+    }
+
+    .margin-md-right-16 {
+        margin-right: 16px;
+    }
+
+    .display-md-none {
+        display: none;
+    }
+
+    .display-md-show {
+        display: block;
+    }
+
+    .w-md-100 {
+        width: 100%;
+    }
+
+    .margin-md-horizontal {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .margin-md-top-3rem {
+        margin-top: 3rem;
+    }
+
+    .padding-md-right-2rem {
+        padding-right: 2rem;
+    }
+
+    .padding-md-left-24 {
+        padding-left: 24px;
+    }
+
+    .iframe-width {
+        width: auto !important;
+    }
+}
+
+.float-right {
+    float: right;
+}
