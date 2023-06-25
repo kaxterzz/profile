@@ -183,6 +183,9 @@ body {
     width: 4%;
 }
 
+.w-9 {
+    width: 9%;
+}
 
 .w-5 {
     width: 5%;
@@ -302,12 +305,16 @@ body {
         padding-right: 2rem;
     }
 
-    .padding-md-left-24 {
-        padding-left: 24px;
+    .padding-md-left-63 {
+        padding-left: 63px;
     }
 
     .iframe-width {
         width: auto !important;
+    }
+
+    .w-md-36 {
+        width: 36%;
     }
 }
 
