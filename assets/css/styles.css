@@ -375,3 +375,8 @@ td {
     border-radius: 10px;
     border: 3px solid #ffffff;
 }
+
+video {
+    height: auto;
+    width: 100%;
+}
