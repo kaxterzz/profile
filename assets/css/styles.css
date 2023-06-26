@@ -58,6 +58,7 @@ body {
 }
 
 .avatar {
+    border: 5px solid white;
     border-radius: 50%;
 }
 
@@ -119,6 +120,10 @@ body {
 
 .margin-auto {
     margin: auto;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
 }
 
 .margin {
@@ -325,4 +330,48 @@ body {
 .footer-coffee-a {
     text-decoration: none !important;
     color: white;
+}
+
+.experience-links {
+    color: white !important;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.likes-article {
+    height: 400px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: white;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    margin-top: 15px;
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
 }
